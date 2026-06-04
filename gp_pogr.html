@@ -1,0 +1,240 @@
+
+<!doctype html public "-//w3c//dtd html 4.01 transitional//en" "http://www.w3.org/tr/html4/loose.dtd">
+<html>
+<head> 
+   <meta http-equiv="content-type" content="text/html; charset="UTF-8"">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title> GPS - ошибки и погрешности</title>
+   <meta name="title" content=" GPS - ошибки и погрешности ">
+   <meta name="author" content="Валентин Приходько">
+   <meta name="keywords"        content="  GPS - ошибки и погрешности  "> 
+   <meta http-equiv="keywords" content="  GPS - ошибки и погрешности ">
+   <meta name="robots" content="index,follow">
+   <meta name="description"    content="  GPS - ошибки и погрешности ">
+   <meta name="copyright" content=" copyright © 2011 - 2025
+ г.  , all rights reserved.">
+   <meta name="document-state" content="dynamic">
+   <meta name="revisit-after" content="1 days">
+   <meta name="classification" content="  GPS - ошибки и погрешности ">
+   <meta name="category" content="  GPS - ошибки и погрешности  ">
+   <meta http-equiv="language" content="russian">
+   <meta name="rating" content="general">
+   <meta name="distribution" content="global">
+   <meta name="resourse-type" content="document">
+<!>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<!--web-fonts-->
+<!--//fonts-->
+
+</head>
+<!> 
+
+<body>
+<div class="banner-w3layouts" id="home">
+        <!-- Шапка страницы Начало -->
+        <div class="header"> <br>   
+                <!-- Текущая дата -->
+                <div align = right style="font-size:15px;  color:#ffffff;"> 
+                        <Script language="JavaScript">
+                                    var now = new Date();
+                                    var days = new Array(' Воскресенье ',' Понедельник ',' Вторник ',' Среда ',' Четверг ',' Пятница ',' Суббота ');
+                                    var months = new Array(' Января ',' Февраля ',' Марта ',' Апреля ',' Мая ',' Июня ',' Июля ',' Августа ',' Сентябрь',' Октября  ',' Ноября ',' Декабря ');
+                                    var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+                                    function fourdigits(number)	{ return (number < 1000) ? number + 1900 : number; }
+                                    today =  days[now.getDay()]+ " " +date + " " +months[now.getMonth()] + "  " +(fourdigits(now.getYear())) + " года";
+                                    document.write("<span class=\"style2\">"+"Сегодня "+today+ "."+"</span>");
+                        </Script>
+                </div>  
+                <!> 
+                <nav class="navbar navbar-default">
+			  <!-- Горизонтальное меню в шапке страницы  начало -->
+			 <div class="navbar-header">
+				 <div>
+                                           <a  href="index.html"     style="font-size:22px; color: #ffffff;" target = _self > Главная страница</a><br>
+                                           <a  href="index.html
+"    style="font-size:22px; color: #ffffff;" target = _self >Образовательный портал  о технологиях мобильной связи </a><br>
+                                 </div> 
+			  </div> 
+			  <!-- Горизонтальное меню в шапке страницы  конец -->
+                </nav>
+	 
+        </div><hr>
+        <!-- Шапка страницы Окончание -->
+        <div align = center  ><h1 style="font-size:18px;  color: #ffffff;"> GPS - ошибки и погрешности </h1></div>
+<!>
+<!-- -->
+<div  align = center style="font-size:15px;  color:#000000;">
+        <!Links> 
+</div> 
+<!-- --> 
+   
+  
+<!>
+        <!-- Основное содержимое страницы Начало -->
+        <div class="w3l_banner_info">
+                 <div align = justify   style=" background-color: #dcdcdc; font-size:15px;  color: #000000; margin: 10px 10px 10px 10px;  "><div align = justify style="margin: 20px 20px 20px 20px;  "><br>
+                        <img src="images/gps_nav.jpg"   width= 160 height= 90  align=left    alt=" GPS - ошибки и погрешности  " border = 1 style="margin: 0px 10px 10px 10px;">
+<!>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Какой бы совершенной ни была система глобального позиционирования,  существует  ряд погрешностей,  которые не позволяют  определить  местоположение   абсолютно точно.  Рассмотрим  их  каждую в отдельности.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.  <B>S/A режим  -  Selective Availability</B>  (Избирательный Доступ).    Несколько лет назад Министерство Обороны США  намеренно  вносило искусственные ошибки  в навигационные данные,  передаваемые  со спутников.   При активированном S/A режиме величина среднеквадратического отклонения определения местоположения составляет, примерно, 30 м. Этот режим был отключен  1 мая 2000 года по распоряжению Билла Клинтона.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  <B>Ионосферные и атмосферные задержки сигналов.</B>   Использование  системы GPS  построено на предположении, что  скорость распространения  сигнала от спутников постоянна и равна  скорости света.  Однако на самом деле это условие выполняется только в вакууме.  При прохождении радиосигналом  ионосферы Земли - слоя заряженных частиц  на высоте  от 120 до 200 км. возникают  задержки,  которые делают невозможными  точные вычисления  расстояний до спутников. Задержки распространения сигналов при их прохождении через верхние слои атмосферы приводят к ошибкам порядка 20-30 м днем и 3-6 м ночью.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Существуют два метода коррекции погрешности,  вносимой ионосферой.  Во-первых, можно  предсказать,  каково будет типичное изменение скорости в обычный день, при средних ионосферных условиях, а затем ввести поправку во все наши измерения. Но, к сожалению, не каждый день является обычным.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Другой способ состоит в сравнении скоростей распространения двух сигналов на двух частотах.  Этот метод корректировки достаточно сложен, кроме того, он, как мы помним, доступен только военным и авторизованным гражданским пользователям системы GPS, поскольку  сигнал на второй частоте L2 передается в закодированном виде. Закрытие доступа к P-коду не позволяет двухчастотному приемнику, работающему с таким кодом, определить ионосферную задержку в реальном времени, и решение задачи определения координат становится более грубым.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;После того, как сигналы от спутников пересекли ионосферу, расположенную очень высоко, они входят в атмосферу, в нижней части которой (в тропосфере) также  возникают  искажения и задержки, обусловленные различным содержанием водяных паров.  К счастью, их вклад в погрешность  достаточно мал.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <B>Ошибки атомных часов и другие погрешности.</B>   Как бы ни были точны атомные часы на спутниках,  все равно они являются источниками  небольших погрешностей.  Наземные станции постоянно следят  за этими часами и могут  корректировать их ход, если в этом возникает необходимость. </P> 
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Приемники на Земле также иногда ошибаются. Компьютер приемника может округлить математическую операцию, или электрические помехи могут привести к ошибочной обработке псевдослучайных кодов. </P> 
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.  <B>Экранирование и отражение спутникового сигнала.</B>   При использовании GPS-приемника в сложных для приёма сигнала условиях: среди высоких зданий, в горах или в глубоких ущельях  точность позиционирования будет ухудшаться.  Если сигналы от некоторых спутников оказываются экранированы, то точность определения местоположения будет зависеть от оставшихся в поле приёма сигнала спутников.  Если  неэкранированными останутся менее трех спутников, то местоположение определить вообще будет невозможно.   Кроме того, сигналы могут  отражаться от высотных объектов,  при этом отраженному сигналу требуется больше времени для достижения приемника. Приемник "думает", что спутник находится на большем расстоянии, чем на самом деле. Однако из-за большой скорости распространения радиоволн, которая равна скорости света, подобная ошибка невелика - она составляет не более 5 м. </P> 
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <B>Эфемеридная погрешность.</B> Ошибки обусловлены расхождением между расчетным положением GPS-спутника, которое устанавливается по данным навигационного сигнала, передаваемого с борта спутника, и его фактическим положением. Значение погрешности обычно не больше 3 м.  Станции слежения постоянно ведут наблюдение за всеми спутниками GPS-системы и передают данные об их орбитах в центр управления, где вычисляются уточненные элементы траекторий и поправки спутниковых часов. Указанные параметры вносятся в "альманах" и передаются на спутники, а те, в свою очередь, отсылают эту информацию всем работающим GPS-приемникам.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. <B>Статистическая погрешность</B>  определения расстояния до спутников.  Она вычисляется для конкретного спутника и заданного интервала времени. Ошибка не коррелирована с другими видами погрешностей. Величина обычно не превышает 10 м.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. <B>Геометрический фактор.</B>  Поскольку  измерение  расстояния  до спутников  всегда  сопряжено с рядом погрешностей,  воображаемые сферы и окружности на их пересечении (см. как работает GPS) получаются не геометрически точными, а  размытыми.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В зависимости  от  угла между направлениями на спутники  область  пересечения таких размытых окружностей  (область неопределенности местоположения) может иметь вид  от небольшого квадрата до весьма вытянутого четырехугольника.   Поэтому, чем больше угол между направлениями на  разные спутники, тем точнее измерения.</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Хорошие приемники  всегда выбирают  из всех доступных  спутников  те, геометрия  расположения   которых  дает  наименьшую неопределенность. </P> 
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Все перечисленные выше  погрешности  суммируются  и  придают каждому  GPS-измерению  некоторую неопределенность.   Типичная  погрешность  при использовании большинства обычных навигаторов  составляет 18-30 метров,  в наихудших случаях - до 60 метров, а при включенном S/A- режиме - до  100 метров.  </P> 
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Точность  определения  местоположения  может быть значительно повышена путем   использования  дифференциальной коррекции.</B></P>
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;В некоторой точке, контрольной станции, с известными координатами  устанавливается  GPS-приемник.  Поскольку контрольная станция знает свое точное месторасположение, она может определить ошибки спутниковых сигналов. Это делается путем измерения расстояния до каждого спутника с использованием принимаемых сигналов. Результат сравнивается с фактическими показателями, рассчитанными на основе известного месторасположения. Разница между измеренным и рассчитанным расстоянием для каждого видимого спутника является "дифференциальной коррекцией".  </P> 
+<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Дифференциальные коррекции для каждого отслеживаемого спутника форматируются в сообщения и передаются DGPS приемникам. Далее дифференциальные коррекции применяются DGPS приемниками в вычислениях для уменьшения ошибок и улучшения точности. Уровень точности зависит от самого приемника и сходства его "окружающей среды" с условиями, в которых находится контрольная станция, а также его удаленности от станции. Коррекция может передаваться на FM-частотам, через спутник или через маяк береговой охраны США. Точность позиционирования с использованием  дифференциальной коррекции составляет 1 - 5 метров. </P> 
+
+<!>
+                 </div>
+<!-- Стрелка - в Начало Страницы -->
+<div align = center ><a  href="#"  target = _self ><img src="img_auto/arr_str_top.png"    align=center    alt=" В Начало страницы " title " В Начало страницы  "></a></div> 
+<!--   -->		
+<br></div>
+<!>
+<div  align = center >
+<!-- -->
+<div  align = center style="font-size:15px;  color:#000000;">
+        <!Links_last> 
+</div> 
+<!-- -->
+
+<!>  
+                        <br>
+                 </div></div>
+        </div>
+        <!-- Основное содержимое страницы Окончание -->
+        <div class="clearfix"></div>
+</div>
+<!--- Подвал страницы начало --->
+        <hr>
+        <div align = center  style = "color: #000000; font-size: 14px; font-weight: normal;  text-decoration: none ; ">
+                  Образовательный портал  о технологиях мобильной связи
+                 <Script language="JavaScript">
+                            var now = new Date();
+                            today =  fourdigits(now.getYear());
+                            document.write("<div>"+"Copyright © 2011 - "+today+ " год."+"</div>");
+                </script>
+	         E-mail:&nbsp;&nbsp;&nbsp; <a href ="mailto:_pvi@ukr.net
+" target=_blank  style=" font-size:14px; color:#000000; text-decoration: none; "> _pvi@ukr.net
+ </a>
+       </div>
+       <div align = center style = "color: #000000; font-size: 14px; text-decoration: none; ">
+                                  Все материалы на сайте предоставлены ИСКЛЮЧИТЕЛЬНО в ОЗНАКОМИТЕЛЬНЫХ и ОБРАЗОВАТЕЛЬНЫХ целях,
+                                 <br>администрация сайта не претендует на их авторство и не несёт ответственности за их содержание. 
+        </div>
+<br><hr><br>
+
+<!--- Подвал страницы Конец --->
+<!--- Скрипты JavaScript --->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- jarallax-js -->
+			<script src="js/jarallax.js"></script>
+			<script src="js/SmoothScroll.min.js"></script>
+			<script type="text/javascript">
+				/* init Jarallax */
+				$('.jarallax').jarallax({
+					speed: 0.5,
+					imgWidth: 1366,
+					imgHeight: 768
+				})
+			</script>
+<!-- //jarallax-js -->
+					<!--banner Slider starts Here-->
+						<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:true,
+									nav:false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+							
+								});
+							 </script>
+
+							<!--banner Slider starts Here-->
+
+
+<!--light-box-files -->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+<!--//light-box-files -->
+		<script type="text/javascript">
+		$(function() {
+			$('.gallery a').Chocolat();
+		});
+		</script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!>
+<!-- start-smoth-scrolling -->
+<!--//footer-section-->
+<!-- Starts-Number-Scroller-Animation-JavaScript -->		
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<!-- //Starts-Number-Scroller-Animation-JavaScript -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!>
+</body>
+</html>
